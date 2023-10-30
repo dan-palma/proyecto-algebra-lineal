@@ -1,0 +1,62 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 100%;
+  overflow-x: hidden;
+  background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .brand{
+    margin-top: 15px;
+    font-size: 50px;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bb7070;
+  }
+  
+ 
+  a {
+    color: #f6e7e7;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  button {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #e6d3d3;
+    background-color: #a06767;
+    border: 1px solid #612828;
+    border-radius: 5px;
+  }
+  
+  p{
+    justify-content: center;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  
+  .info {
+    margin: 20px;
+    font-size: 25px;
+    color: antiquewhite;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+  }
+  
+  .inversa, .multiplicacion, .ecuacion {
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ecuaciones lineales</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.7.2/math.min.js"></script>
+
+</head>
+<body>
+    <button type="button" class="regresar" ><a href="proyecto-algebra\index.html">Regresar</a></button>
+    <div class="principal">
+
+    <h1>Ecuaciones Lineales</h1>
+    <P>Un sistema de ecuaciones lineales es un conjunto de dos o más ecuaciones lineales que tienen un conjunto de soluciones comunes. 
+        <BR>Las ecuaciones lineales son ecuaciones que se pueden expresar en la forma:</P>
+            <img src="https://www.abcfichas.com/wp-content/uploads/2021/06/Las-Partes-de-una-Ecuacion.jpg" alt="ecuación" width="250px">
+           <h2> Ecuaciones de 2x2 y 3x3 </h2>
+           <p>Se utilizan solo las primeras dos filas ecuaciones para el método 2 x 2. </p>
+            <form id="equationForm">
+                <div class="equation">
+                    <input type="text" name="a11" placeholder="COEFICIENTE">
+                    <span>X +</span>
+                    <input type="text" name="a12" placeholder="COEFICIENTE">
+                    <span>Y +</span>
+                    <input type="text" name="a13" placeholder="COEFICIENTE">
+                    <span>Z =</span>
+                    <input type="text" name="b1" placeholder="CONSTANTE">
+                </div>
+                <div class="equation">
+                    <input type="text" name="a21" placeholder="COEFICIENTE">
+                    <span>X +</span>
+                    <input type="text" name="a22" placeholder="COEFICIENTE">
+                    <span>Y +</span>
+                    <input type="text" name="a23" placeholder="COEFICIENTE">
+                    <span>Z =</span>
+                    <input type="text" name="b2" placeholder="CONSTANTE">
+                </div>
+                <div class="equation">
+                    <input type="text" name="a31" placeholder="COEFICIENTE">
+                    <span>X +</span>
+                    <input type="text" name="a32" placeholder="COEFICIENTE">
+                    <span>Y +</span>
+                    <input type="text" name="a33" placeholder="COEFICIENTE">
+                    <span>Z =</span>
+                    <input type="text" name="b3" placeholder="CONSTANTE">
+                </div>
+        
+                <button type="button" id="solveCramer">Resolver con Cramer</button>
+                <button type="button" id="solveGaussJordan">Resolver con Gauss-Jordan</button>
+                <br><button type="button" id="deleteAll">Eliminar Todo</button>
+            </form>
+            
+
+<div id="result">
+    <!-- Aquí se mostrará el resultado -->
+</div>
+    <button type="grafica" class="Graficador" ><a href="/ecuaciones lineales/graficador.html">Graficador</a></button>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

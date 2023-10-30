@@ -1,0 +1,111 @@
+.regresar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    background-color: #ee2162;;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:bold; 
+    font-size: 40px; 
+    color: #58dfeb; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+h2{
+    text-align: center; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:bold; 
+    font-size: 40px; 
+    color: #58dfeb; 
+   
+
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to left,pink,rgb(191, 0, 147));
+}
+.principal{
+    width: 100%;
+    height: 95vh;
+}
+
+.equation {
+    margin: 10px 0;
+}
+
+#solveCramer{
+    padding: 15px 30px;
+    background-color: #d4dc00;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 10px 40px 10px;
+}
+
+#solveGaussJordan{
+    padding: 15px 30px;
+    background-color: #9823a1;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 10px 40px 10px;
+}
+
+#deleteAll{
+    padding: 15px 30px;
+    background-color: #499ba4;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 10px 40px 10px;
+}
+
+input{
+    background-color: rgb(234, 178, 195);
+    border-radius: 15%;
+}
+
+.Graficador {
+    display: block; 
+    margin-top: 80px; 
+    background-color: #e91f84; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30%; 
+    cursor: pointer;
+}
+
+.Graficador:hover {
+    background-color: #d6c909;
+}
+
+
